@@ -1,0 +1,7 @@
+
+steps:
+  - name: 'ubuntu'
+    entrypoint: 'bash'
+    args:
+      - '-c'
+      - 'chmod +x test.sh && ./test.sh'
